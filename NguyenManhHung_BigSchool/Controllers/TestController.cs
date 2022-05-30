@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace NguyenManhHung_BigSchool.Controllers
 {
-    //doan nay dung de test thoi 
+    //doan nay dung de test thoi
     public class TestController : Controller
     {
         // GET: Test
