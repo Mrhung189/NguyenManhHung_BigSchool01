@@ -78,7 +78,7 @@ namespace NguyenManhHung_BigSchool.Migrations
         }
         
         public override void Down()
-        {
+        { 
             DropForeignKey("dbo.AspNetUserRoles", "UserId", "dbo.AspNetUsers");
             DropForeignKey("dbo.AspNetUserLogins", "UserId", "dbo.AspNetUsers");
             DropForeignKey("dbo.AspNetUserClaims", "UserId", "dbo.AspNetUsers");
